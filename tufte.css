@@ -141,6 +141,22 @@ p {
     vertical-align: baseline;
 }
 
+/* Or if you want some spacing but less than default */
+li > p {
+    margin: 0.5em 0;
+}
+
+/* For the first paragraph in a list item */
+li > p:first-child {
+    margin-top: 0;
+}
+
+/* For the last paragraph in a list item */
+li > p:last-child {
+    margin-bottom: 0;
+}
+
+
 /* Chapter Epigraphs */
 div.epigraph {
     margin: 5em 0;
